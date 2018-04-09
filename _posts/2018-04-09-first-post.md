@@ -7,8 +7,8 @@ categories: dev blog
 
 This is a post to test the whole system. lol :P
 
-(% highlight c# %)
+``` c#
 public class TestClass : MonoBehaviour{
     public float testFloat = 5f;
 }
-(% highlight end %)
+```
