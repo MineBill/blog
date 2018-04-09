@@ -14,7 +14,7 @@ url: "https://minebill.github.io"
 baseurl: "/blog"
 
 # The site cover image on the home page
-image: /blog/images/site-image.jpg
+image: /blog/images/site-background.png
 
 # The shortname for your Disqus site to enable comments
 disqus_shortname:
