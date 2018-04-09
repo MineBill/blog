@@ -11,7 +11,7 @@ description: Small site to post personal dev-logs and tutorials!
 url: "minebill.eu"
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl: "/blog"
+baseurl: ""
 
 # The site cover image on the home page
 image: images/site-background.png
@@ -26,7 +26,7 @@ google_analytics_tracking_id:
 # Site navigation
 nav:
   - title: "Home"
-    url:   "/blog"
+    url:   "/"
 
 
 # The links in the site footer
@@ -39,7 +39,7 @@ authors:
     name: MineBill
     website: https://github.com/minebill
     bio: A random dude # Author info at bottom of post only shows if bio exists
-    avatar: /blog/images/avatar_minebill.png
+    avatar: images/avatar_minebill.png
 
 
 # Extra Open Graph and Twitter Cards settings for social sharing
