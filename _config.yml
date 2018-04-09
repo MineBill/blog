@@ -14,7 +14,7 @@ url: "https://barepants.github.io"
 baseurl: "/blog"
 
 # The site cover image on the home page
-image: /crossing-jekyll/images/site-image.jpg
+image: /blog/images/site-image.jpg
 
 # The shortname for your Disqus site to enable comments
 disqus_shortname:
@@ -26,7 +26,7 @@ google_analytics_tracking_id:
 # Site navigation
 nav:
   - title: "Home"
-    url:   "/crossing-jekyll/"
+    url:   "/blog/"
 
 
 # The links in the site footer
@@ -39,7 +39,7 @@ authors:
     name: MineBill
     website: https://github.com/minebill
     bio: A random dude # Author info at bottom of post only shows if bio exists
-    avatar: /crossing-jekyll/images/avatar.jpg
+    avatar: /blog/images/avatar.jpg
 
 
 # Extra Open Graph and Twitter Cards settings for social sharing
