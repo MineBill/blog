@@ -1,11 +1,11 @@
 # Site title
-title: Crossing
+title: MineBill
 
 # Tagline below the site title on post list pages
-tagline: Thoughts, stories and ideas.
+tagline: What am i doing?
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description:
+description: Small site to post personal dev-logs and tutorials!
 
 # The base hostname & protocol of your site for where absolute urls are needed
 url: "https://barepants.github.io"
@@ -27,27 +27,19 @@ google_analytics_tracking_id:
 nav:
   - title: "Home"
     url:   "/crossing-jekyll/"
-  - title: "Github"
-    url:   "https://github.com/barepants/crossing-jekyll"
 
 
 # The links in the site footer
 footer_links:
-  - title: "RSS"
-    url:   "/crossing-jekyll/feed.xml"
-  - title: "GitHub"
-    url:   "https://github.com/barepants/crossing-jekyll"
 
 
 # Author information
 authors:
-  johndoe:
-    name: John Doe
-    website: https://github.com/barepants
-    bio: An awesome bio # Author info at bottom of post only shows if bio exists
+  minebill:
+    name: MineBill
+    website: https://github.com/minebill
+    bio: A random dude # Author info at bottom of post only shows if bio exists
     avatar: /crossing-jekyll/images/avatar.jpg
-  lewiscarroll:
-    name: Lewis Carroll
 
 
 # Extra Open Graph and Twitter Cards settings for social sharing
