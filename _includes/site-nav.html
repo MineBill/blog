@@ -16,7 +16,7 @@
       {% for link in site.nav %}
         {% assign link_url = link.url %}
         {% if link_url == page_url %}
-          {% link_url = '' %}
+          {% assign link_url = '' %}
         {% endif %}
         <li>
           <a href="{{ link_url }}">{{ link.title }}</a>
