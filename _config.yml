@@ -25,7 +25,7 @@ google_analytics_tracking_id:
 
 # Site navigation
 nav:
-  - title: "Home"
+  - title: "Devlogs"
     url:   ""
   - title: "Tutorials"
     url: "tutorials"
