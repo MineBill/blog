@@ -14,7 +14,7 @@
     <ul class="site-nav-list clearfix">
       {% assign page_url = page.url | replace: 'minebill.eu', '' | replace: '/', '' %}
       {% for link in site.nav %}
-        {% assign link_url = link.url %}
+        {% assign link_url = link.url | replace '/', '' %}
         {% if link_url == page_url %}
           {% assign link_url = '' %}
         {% endif %}

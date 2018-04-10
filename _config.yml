@@ -28,7 +28,7 @@ nav:
   - title: "Devlogs"
     url:   "/"
   - title: "Tutorials"
-    url: "tutorials"
+    url: "/tutorials"
 
 
 # The links in the site footer
