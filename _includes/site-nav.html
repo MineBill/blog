@@ -14,8 +14,12 @@
     <ul class="site-nav-list clearfix">
       {% assign page_url = page.url | replace: 'minebill.eu', '' | replace: '/', '' %}
       {% for link in site.nav %}
-        <li {% if link.url == page_url %}class="site-nav-current"{% endif %}>
-          <a href="{{ link.url }}">Page url: {{ page_url }} Target url: {{ link.url }}</a>
+        {% assign link_url = link.url %}
+        {% if link_url == page_url %}
+          {% link_url = '' %}
+        {% endif %}
+        <li>
+          <a href="{{ link_url }}">{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>
