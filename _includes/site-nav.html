@@ -15,7 +15,7 @@
       {% assign page_url = page.url | prepend: site.baseurl | replace: 'index.html', '' %}
       {% for link in site.nav %}
         <li {% if link.url == page_url | prepend: site.baseurl %}class="site-nav-current"{% endif %}>
-          <a href="minebill.eu/{{ link.url }}">{{ link.title }}</a>
+          <a href="{{ link.url }}">{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>
