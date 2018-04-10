@@ -15,7 +15,7 @@
       {% assign page_url = page.url | prepend: site.url | replace: 'index.html', '' %}
       {% for link in site.nav %}
         <li {% if link.url == page_url %}class="site-nav-current"{% endif %}>
-          <a href="{{ link.url }}">{{ page_url }}</a>
+          <a href="{{ link.url }}">Page url: {{ page_url }} Target url: {{ link.url }}</a>
         </li>
       {% endfor %}
     </ul>
