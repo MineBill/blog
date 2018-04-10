@@ -14,9 +14,9 @@
     <ul class="site-nav-list clearfix">
       {% assign page_url = page.url | prepend: site.baseurl | replace: 'index.html', '' %}
       {% for link in site.nav %}
-        
+        <li class="site-nav-current">
           <a href="{{ link.url }}">{{ link.title }}</a>
-        
+        </li>
       {% endfor %}
     </ul>
   </nav>
